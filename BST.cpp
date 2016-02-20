@@ -69,7 +69,7 @@ int BST::insertAux(BSTNode* &node, BSTNode* &INode){
 	}
 }
 
-int BST::remove(int n){
+int BST::remove(int n){			//removeAux is in BSTNode - easier access to data 
 	if (root == NULL)
 		return 0;
 	else {
